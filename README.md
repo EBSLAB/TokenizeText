@@ -13,7 +13,7 @@
     six==1.16.0
     ```
 
-- If For the Belo error Install this:
+- If found the below error:
 ```
 ImportError: cannot import name 'Locale' from 'icu' (/home/vilal/allenv/lib/python3.10/site-packages/icu/__init__.py)
 ```
