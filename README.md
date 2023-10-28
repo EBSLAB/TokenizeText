@@ -16,3 +16,6 @@
 - 3- Final output: It will contain the output after removing the phrases.
 
 
+## Demo!!!
+
+https://github.com/EBSLAB/TokenizeText/assets/46487934/6034b3fc-6d1d-47fb-a8af-6a1bda90a9cd
