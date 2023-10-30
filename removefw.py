@@ -57,13 +57,13 @@ def tokenize_and_save(input_file, phrase_list_file, output_file, lang='hi', spli
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Drop phrases from sentences and save the result to a file.")
-    parser.add_argument("input_file", help="Path to the input file.")
-    parser.add_argument("phrase_list_file", help="Path to the phrase list file.")
-    parser.add_argument("output_file", help="Path to the output file.")
+    parser.add_argument("--input", help="Path to the input file.")
+    parser.add_argument("--phrase_list", help="Path to the phrase list file.")
+    parser.add_argument("--output", help="Path to the output file.")
     parser.add_argument("--lang", default="hi", help="Language code (default: hi).")
     parser.add_argument("--split_sen", default='True', help="Split sentences (default: True).")
 
     args = parser.parse_args()
     logging.info("Starting tokenization and phrase dropping process...")
-    tokenize_and_save(args.input_file, args.phrase_list_file, args.output_file, args.lang, args.split_sen)
+    tokenize_and_save(args.input, args.phrase_list, args.output, args.lang, args.split_sen)
     logging.info("Process completed successfully.")

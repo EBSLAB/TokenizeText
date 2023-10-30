@@ -7,7 +7,7 @@
 
 ## Run the below command: to run script:
 ```
->>> python dropFunctionPhrase.py in.txt phraseList.txt Output.txt --lang hi --split_sen True
+>>> python removefw.py --input in.txt --phrase_list swl_hin_uniq5325.txt --output output.txt --lang hi --split_sen True
 ```
 
 ## Program will generate Three Output:
